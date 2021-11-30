@@ -19,6 +19,8 @@
 //     console.log(this.a);
 //     return this;
 //   },
+
+
 //   getB() {
 //       console.log(this.b);
 //       return this
@@ -53,28 +55,31 @@
 
 
 
-// var a = 'Ali Ubaydullayev';
+var a = 'Webbrain Academy Is Number One';
 
-// str = a.split('') 
-
-// // console.log(str);
-// for (i = 0; i < str.length; i++) {
-//     if (str[i] === str[i].toUpperCase() && str[i] !== ' ' ) {
-//           console.log(str[i]);
-//       }
-//     }
-
-
-
-
-function sum(limit) {
-    counter = 0;
-    
-    for (i = 0; i < limit.length; i++) {
-        if (limit % ==)
-    }
+str = a.split('') 
+res = '';
+for (i = 0; i < str.length; i++) {
+    if (str[i] === str[i].toUpperCase() && str[i] !== ' ' ) {
+        res += str[i]
         
+    }
 }
+console.log(res)
 
-console.log(sum(10));
 
+
+
+// function sum(limit) {
+//     counter = 0;
+    
+//     for (i = 0; i <=limit; i++) {
+//         if (i % 3 === 0 || i % 5 === 0) {
+//             counter += i
+//             }
+//     } 
+//     return counter
+        
+// }
+
+// console.log(sum(10));

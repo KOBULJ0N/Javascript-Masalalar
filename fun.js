@@ -71,3 +71,18 @@
 // }
 
 // console.log(str1);
+
+
+
+// const letterCapital = (string) => {
+//    str = string.split('');
+//    res = '';
+//    for (i = 0; i < str.length; i++) {
+//      if (str[i] === str[i].toUpperCase() && str[i] !== ' ') {
+//        res += str[i];
+//      }
+//    } return res
+// }
+
+
+// console.log(letterCapital('Webbrain Academy Is Number One'));
