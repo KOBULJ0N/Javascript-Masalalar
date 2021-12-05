@@ -1,4 +1,4 @@
-/*Bosh ogrigi 1 */ 
+/*Bosh ogrigi 1 */
 
 // obj = (num1 = 0, num2 = 0) => {
 //   if (num2) console.log(num1 + num2);
@@ -20,7 +20,6 @@
 //     return this;
 //   },
 
-
 //   getB() {
 //       console.log(this.b);
 //       return this
@@ -32,7 +31,6 @@
 // };
 
 // obj1.getA().getB().getC();
-
 
 // count = 0;
 // res = 0;
@@ -53,33 +51,32 @@
 // };
 // console.log(sum([1, 3, 2, 2], 2));
 
+var title = 'Webbrain Academy Is Number One';
 
+const res = title.split('').filter((value) => value !== (' ') &&  value === value.toUpperCase());
 
-var a = 'Webbrain Academy Is Number One';
-
-str = a.split('') 
-res = '';
-for (i = 0; i < str.length; i++) {
-    if (str[i] === str[i].toUpperCase() && str[i] !== ' ' ) {
-        res += str[i]
-        
-    }
-}
-console.log(res)
-
-
-
+console.log(res.join(''));
 
 // function sum(limit) {
 //     counter = 0;
-    
+
 //     for (i = 0; i <=limit; i++) {
 //         if (i % 3 === 0 || i % 5 === 0) {
 //             counter += i
 //             }
-//     } 
+//     }
 //     return counter
-        
+
 // }
 
 // console.log(sum(10));
+
+// daraja4 = (a) => {
+//     return 4* ( a * a )
+// }
+
+// console.log(daraja4(3));
+
+
+
+
