@@ -51,11 +51,11 @@
 // };
 // console.log(sum([1, 3, 2, 2], 2));
 
-var title = 'Webbrain Academy Is Number One';
+// var title = 'Webbrain Academy Is Number One';
 
-const res = title.split('').filter((value) => value !== (' ') &&  value === value.toUpperCase());
+// const res = title.split('').filter((value) => value !== (' ') &&  value === value.toUpperCase());
 
-console.log(res.join(''));
+// console.log(res.join(''));
 
 // function sum(limit) {
 //     counter = 0;
@@ -79,4 +79,16 @@ console.log(res.join(''));
 
 
 
-
+showPrimeNumber = (number) => {
+    for (let i = 2; i <= number; i++) {
+        let isPrime = true;
+        for (j = 2; j < i; j++) {
+            if (i % j === 0) {
+                isPrime = false;
+                break;
+            }
+        } if (isPrime) console.log(i)
+    
+    }
+}
+showPrimeNumber(20)
