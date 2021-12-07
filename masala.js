@@ -79,16 +79,36 @@
 
 
 
-showPrimeNumber = (number) => {
-    for (let i = 2; i <= number; i++) {
-        let isPrime = true;
-        for (j = 2; j < i; j++) {
-            if (i % j === 0) {
-                isPrime = false;
-                break;
-            }
-        } if (isPrime) console.log(i)
+// showPrimeNumber = (number) => {
+//     for (let i = 2; i <= number; i++) {
+//         let isPrime = true;
+//         for (j = 2; j < i; j++) {
+//             if (i % j === 0) {
+//                 isPrime = false;
+//                 break;
+//             }
+//         } if (isPrime) console.log(i)
     
-    }
-}
-showPrimeNumber(20)
+//     }
+// }
+// showPrimeNumber(20)
+
+
+
+
+
+// a = 'apple';
+// b = 'WebBrain';
+// c = 'G1';
+ 
+// d = (a + ' ' + b + ' ' + c).split(' ')
+//  console.log((d.sort((x,y) => y.length - x.length)).join(' '));
+
+
+
+
+
+
+
+
+
