@@ -19,8 +19,9 @@
 
 
 
-givenNumber = 24;
-givenNumber % 2 === 0 ? console.log('Bob Yutdi') : console.log('ALice Yutdi');
+// givenNumber = 24;
+// givenNumber % 2 === 0 ? console.log('Bob Yutdi') : console.log('ALice Yutdi');
+
 
 
 

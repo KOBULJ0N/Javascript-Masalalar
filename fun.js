@@ -61,16 +61,16 @@
 //     }
 // }
 
-// str = ' WEB Academy';
-// str1 = ''
-// // str1 = str.repeat(10);
-// // var str2;
-// for (i = 0; i < 10; i++) {
-//   str1 += str.replace('WEB', 'IT');
-//   // console.log(  str2 = str1.replace('WEB', 'IT'));
-// }
+str = ' WEB Academy';
+str1 = ''
+// str1 = str.repeat(10);
+// var str2;
+for (i = 0; i < 10; i++) {
+  str1 += str.replace('WEB', 'IT');
+  // console.log(  str2 = str1.replace('WEB', 'IT'));
+}
 
-// console.log(str1);
+console.log(str1);
 
 
 
